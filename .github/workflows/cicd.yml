@@ -126,7 +126,7 @@ jobs:
       with:
         context: .
         push: true
-        tags: peppermint/bankapp:latest
+        tags: adiegwu/bankapp:latest
         file: ./Dockerfile
 
   deploy_to_kubernetes:
