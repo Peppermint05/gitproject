@@ -137,8 +137,7 @@ jobs:
       uses: actions/checkout@v4
     - name: Install AWS CLI
       run: |
-    - name: Install AWS CLI
-      run: |
+    
         if command -v aws >/dev/null 2>&1; then
           echo "AWS CLI already installed: $(aws --version)"
         else
